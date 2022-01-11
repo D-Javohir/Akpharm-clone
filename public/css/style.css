@@ -1,0 +1,1145 @@
+body {
+    background: #E5E5E5 !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Rubik, sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* -----------------------------WEBKIT -----------------------*/
+/* -----------------------------WEBKIT -----------------------*/
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 20px ;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top, blue, transparent);
+    border-radius: 10px;
+}
+
+/* -----------------------------WEBKIT -----------------------*/
+/* -----------------------------WEBKIT -----------------------*/
+
+
+
+
+/* -----------------------------ROOT -----------------------------------*/
+/* -----------------------------ROOT -----------------------------------*/
+
+:root {
+    --blue_1: #011A61;
+    --blueviolet_1: #6001D3;
+    --p_text: #70798B;
+    --carousel_text: #030314;
+    --footer_text_p: #1F2022;
+    --Rubik_font: 'Rubik', sans-serif;
+    --clip_path: ellipse(120% 100% at 40.68% 100%);
+}
+
+/* -----------------------------ROOT -----------------------------------*/
+/* -----------------------------ROOT -----------------------------------*/
+
+
+
+/* -------------------------------------MAIN PAGE START ---------------------------------*/
+/* -------------------------------------MAIN PAGE START ---------------------------------*/
+/* title img */
+
+/* title img */
+.main-page {
+    background: url(../image/banner.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: #5f01d3e1;
+}
+
+.main-page .opacitybac {
+    width: 100%;
+    height: 100%;
+    background-color: #0814207a;
+}
+
+.main-page .opacitybac header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    padding: 10px 130px;
+    transition: 0.30s linear;
+    margin: 0;
+}
+
+.main-page .opacitybac header nav #logo1 {
+    display: none;
+}
+
+.main-page .opacitybac header nav {
+
+    width: 100%;
+    justify-content: space-between;
+}
+
+.dropdown_menu {
+    background: #fff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    position: absolute;
+    transition: 0.30s linear;
+    display: none;
+}
+
+.dropdown_menu_block {
+    background: #fff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    position: absolute;
+    transition: 0.30s linear;
+    display: block;
+}
+
+.ul_two {
+    display: none !important;
+}
+
+.ul_two .dropdown_menu a {
+    font-size: 12px;
+
+}
+
+.ul_two li a {
+    list-style: none !important;
+    text-decoration: none !important;
+    cursor: pointer;
+
+}
+
+.main-page .opacitybac header nav .one_ul {
+    width: 70%;
+
+}
+
+.main-page .opacitybac header nav ul {
+    margin-bottom: 0;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.main-page .opacitybac header nav ul li {
+    list-style: none
+}
+
+.main-page .opacitybac header nav ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--Rubik_font);
+}
+
+/* sticy class atribut */
+.sticy nav ul li a {
+    color: black !important;
+}
+
+.sticy {
+    background: #ffffff;
+    padding: 7px 120px !important;
+    transition: 0.30s linear;
+}
+
+.sticy #logo {
+    display: none;
+}
+
+#logo1 {
+    display: none;
+    width: 90px !important;
+    height: 60px !important;
+}
+
+.sticy #logo1 {
+    display: block !important;
+
+}
+
+.sticy nav ul li .a_end {
+    color: white !important;
+    background: black;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+/* sticy class atribut */
+
+.main-page .opacitybac header nav ul li .a_end {
+    color: #000000;
+    font-size: 16px;
+    font-family: var(--Rubik_font);
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.main-page .opacitybac .main_text {
+    font-size: 45px;
+    line-height: 160%;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 250px
+}
+
+
+
+
+/* -----------------------------------ABOUT PAGE STAR----------------------------*/
+/* -----------------------------------ABOUT PAGE STAR----------------------------*/
+
+.about_page {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    transition: 0.30s linear !important;
+}
+
+.about_page .image_busines {
+    position: relative
+}
+
+.about_page .image_busines_2 {
+    display: none !important;
+}
+
+
+.about_page .image_busines img {
+    position: absolute;
+    width: 360px;
+    height: 230px;
+    border-radius: 20px
+}
+
+.about_page .image_busines .img_2 {
+    transform: translateX(212px) translateY(149px);
+    width: 400px;
+    height: 280px;
+    box-shadow: 7px 11px 34px 3px var(--p_text)
+}
+
+
+
+
+
+/* ---------------------------------ABOUT TEXT--------------------------------------- */
+/* ---------------------------------ABOUT TEXT--------------------------------------- */
+
+.about_tex h2 {
+    font-family: var(--Rubik_font);
+    color: var(--blue_1);
+    font-weight: 600;
+    font-size: 35px;
+    font-style: normal;
+    margin-top: 60px;
+}
+
+.about_tex p {
+    font-family: var(--Rubik_font);
+    font-style: normal;
+    font-size: 15px;
+    font-weight: normal;
+    color: var(--p_text);
+}
+
+.about_tex .numbers h4 {
+    color: var(--blueviolet_1);
+    font-weight: 550;
+    font-family: var(--Rubik_font);
+    font-size: 40px;
+    text-align: center;
+}
+
+.about_tex h5 {
+    color: var(--blue_1);
+    font-weight: 600;
+    font-style: normal;
+    font-family: var(--Rubik_font);
+    font-size: 18px;
+}
+
+.about_tex .numbers span {
+    color: var(--blueviolet_1);
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+}
+
+.about_tex .numbers .ciziq {
+    width: 1px;
+    height: 70px;
+    background-color: #ABAFC7;
+}
+
+.about_page_two .about_image img {
+    width: 96%;
+    height: 210px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+/* ----------------------------------ABOUT PAGE END----------------------------------*/
+/* ----------------------------------ABOUT PAGE END----------------------------------*/
+
+
+
+
+
+/* ------------------------------SECTION ONEPAGE START ---------------------------------*/
+/* ------------------------------SECTION ONEPAGE START ---------------------------------*/
+
+.section_one {
+    width: 100%;
+    background-image: linear-gradient(to top, #e5e5e5, #ebebeb, #f2f2f2, #f8f8f8, #ffffff);
+    clip-path: var(--clip_path);
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section_one h2 {
+    font-family: var(--Rubik_font);
+    color: var(--blue_1);
+    font-weight: 600;
+    font-size: 35px;
+    font-style: normal;
+    margin-top: 100px;
+}
+
+.section_one .iconoc {
+    border-radius: 20px;
+    transition: 0.30s linear;
+    margin-top: 70px;
+}
+
+.section_one .iconoc h6 {
+    font-family: var(--Rubik_font);
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--carousel_text);
+}
+
+.section_one .iconoc p {
+    font-family: var(--Rubik_font);
+    font-style: normal;
+    font-size: 15px;
+    font-weight: normal;
+    color: var(--p_text);
+}
+
+.section_one .iconoc {
+    padding: 10px 10px;
+}
+
+.section_one .iconoc:hover {
+    background: var(--blueviolet_1);
+}
+
+.section_one .iconoc img {
+    padding: 15px 15px;
+    border-radius: 15px;
+    margin: 10px 10px;
+    transition: 0.30s linear;
+}
+
+.section_one .iconoc:hover img {
+    background: #ffffff;
+}
+
+.section_one .iconoc:hover p {
+    color: #ffffff;
+    transition: 0.30s linear;
+}
+
+.section_one .iconoc:hover h6 {
+    color: #ffffff;
+    transition: 0.30s linear;
+}
+
+/* ------------------------------SECTION ONEPAGE START ---------------------------------*/
+/* ------------------------------SECTION ONEPAGE START ---------------------------------*/
+
+
+
+
+
+
+
+/* -----------------------------------KATEGOPRYPAGE START------------------------------- */
+/* -----------------------------------KATEGOPRYPAGE START------------------------------- */
+
+.kategory_page h2 {
+    font-family: var(--Rubik_font);
+    color: var(--blue_1);
+    font-weight: 600;
+    font-size: 35px;
+    font-style: normal;
+    margin-top: 150px;
+}
+
+/* -----------------------------------KATEGOPRYPAGE START------------------------------- */
+/* -----------------------------------KATEGOPRYPAGE START------------------------------- */
+
+
+
+/* -----------------------------RABOTAET PAGE START------------------------------------- */
+/* -----------------------------RABOTAET PAGE START------------------------------------- */
+
+.section_three {
+    background: url(../image/Path\ 5683.png) no-repeat;
+    background-position: 25% 50%;
+    background-size: 778px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 30px 100px;
+}
+
+.section_three p {
+    font-family: var(--Rubik_font);
+    font-style: normal;
+    font-size: 15px;
+    font-weight: normal;
+    color: var(--p_text);
+}
+
+.section_three .btn_ostavit2 {
+    display: none;
+    color: #ffffff;
+    background: var(--blueviolet_1);
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    font-weight: 500px;
+}
+
+.section_three .numb img {
+    background: #ffffff;
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.section_three .numb h4 {
+    color: var(--blue_1);
+    font-weight: 600;
+    font-style: normal;
+    font-family: var(--Rubik_font);
+    font-size: 18px;
+}
+
+.section_three .rabot_page_two {
+    display: none !important;
+}
+
+.section_three .numb1 {
+    background: url(../image/Path\ 5688.png) no-repeat;
+    background-position: 50% 10%;
+    background-size: 80px;
+    transform: translateY(58px);
+}
+
+.section_three .numb2 {
+    background: url(../image/path1.png) no-repeat;
+    transform: translateY(97px) translateX(-45px);
+    background-position: 50% 10%;
+    background-size: 50px;
+}
+
+.section_three .numb3 {
+    background: url(../image/Path2.png) no-repeat;
+    transform: translateY(-17px) translateX(-56px);
+    background-position: 50% 10%;
+    background-size: 80px;
+}
+
+.section_three h2 {
+    font-family: var(--Rubik_font);
+    color: var(--blue_1);
+    font-weight: 600;
+    font-size: 35px;
+    font-style: normal;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.section_three p {
+    font-family: var(--Rubik_font);
+    font-style: normal;
+    font-size: 15px;
+    font-weight: normal;
+    color: var(--p_text);
+}
+
+.section_three .btn_ostavit {
+    color: #ffffff;
+    background: var(--blueviolet_1);
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    font-weight: 500px;
+}
+
+/* -----------------------------RABOTAET PAGE START------------------------------------- */
+/* -----------------------------RABOTAET PAGE START------------------------------------- */
+
+
+
+
+/* ------------------------------SECTION POPULAR STRAT -----------------------------------------*/
+/* ------------------------------SECTION POPULAR STRAT -----------------------------------------*/
+
+.section_popular .popular {
+    background: #fff;
+    padding: 50px 5px 10px 10px;
+    border-radius: 20px;
+    transition: 0.30s linear;
+}
+
+.section_popular .popular:hover {
+    background: var(--blueviolet_1);
+}
+
+.section_popular .popular:hover p {
+    color: white;
+}
+
+.section_popular .popular:hover h4 {
+    color: white;
+}
+
+.section_popular .popular:hover span {
+    color: white;
+}
+
+.section_popular .popul {
+    border-radius: 50%;
+    transform: translateX(30px) translateY(37px);
+    box-shadow: -6px 13px 35px -11px var(--blueviolet_1);
+}
+
+.section_popular p {
+    font-family: var(--Rubik_font);
+    font-style: normal;
+    font-size: 15px;
+    font-weight: normal;
+    color: var(--p_text);
+}
+
+.section_popular h4 {
+    color: var(--blue_1);
+    font-weight: 600;
+    font-style: normal;
+    font-family: var(--Rubik_font);
+    font-size: 16px;
+}
+
+.section_popular span {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--Rubik_font);
+    color: var(--p_text);
+}
+
+/* ------------------------------SECTION POPULAR STRAT -----------------------------------------*/
+/* ------------------------------SECTION POPULAR STRAT -----------------------------------------*/
+
+
+
+
+/*--------------------------------- PARTNER PAGE START ---------------------------------------*/
+/*--------------------------------- PARTNER PAGE START ---------------------------------------*/
+
+.partner_page {
+    
+    background: #ffffff;
+    padding: 50px 0px;
+}
+
+.partner_page h2 {
+    font-family: var(--Rubik_font);
+    color: var(--blue_1);
+    font-weight: 600;
+    font-size: 35px;
+    font-style: normal;
+}
+
+.partner_page p {
+    font-family: var(--Rubik_font);
+    font-style: normal;
+    font-size: 15px;
+    font-weight: normal;
+    color: var(--p_text);
+}
+
+.partner_page img {
+    transition: 0.30s ease-in;
+}
+
+
+.partner_page a {
+    font-size: 16px;
+    font-weight: 500px;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: var(--blueviolet_1);
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*--------------------------------- PARTNER PAGE START ---------------------------------------*/
+/*--------------------------------- PARTNER PAGE START ---------------------------------------*/
+
+
+
+/*------------------------------------- MESSAGEPAGE---------------------------------------- */
+/*------------------------------------- MESSAGEPAGE---------------------------------------- */
+
+.message_page {
+    margin: 100px 0;
+}
+
+.message_page h2 {
+    font-family: var(--Rubik_font);
+    color: var(--blue_1);
+    font-weight: 600;
+    font-size: 35px;
+    font-style: normal;
+}
+
+.message_page p {
+    font-family: var(--Rubik_font);
+    font-style: normal;
+    font-size: 15px;
+    font-weight: normal;
+    color: var(--p_text);
+}
+
+.message_page a {
+    color: var(--blue_1);
+    font-weight: 600;
+    font-family: var(--Rubik_font);
+    text-decoration: none;
+}
+
+.message_page input {
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+
+.message_page .message_input {
+    padding: 30px 0;
+}
+
+.message_page span {
+    font-weight: 400px;
+    font-size: 13px;
+    color: var(--p_text)
+}
+
+.message_page button {
+    width: 300px;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 0;
+    font-weight: 500;
+    color: #fff;
+    background: var(--blueviolet_1);
+    margin-top: 20px;
+}
+
+/*------------------------------------- MESSAGEPAGE---------------------------------------- */
+/*-----------------------END-------------- MESSAGEPAGE----------END------------------------------ */
+
+
+
+
+
+
+
+
+/* --------------------FOOTER START=----------------- */
+/* --------------------FOOTER START=----------------- */
+
+footer {
+    background: #ffffff;
+    padding: 50px 0 10px 0;
+}
+
+footer h5 {
+    font-family: var(--Rubik_font);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+footer h5 b {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+footer h6 {
+    color: var(--footer_text_p);
+    font-weight: 600;
+    font-style: normal;
+    font-family: var(--Rubik_font);
+    font-size: 16px;
+}
+
+footer p {
+    font-family: var(--Rubik_font);
+    font-style: normal;
+    font-size: 15px;
+    font-weight: normal;
+    color: var(--footer_text_p);
+}
+
+footer .bio_up {
+    font-family: var(--Rubik_font);
+    font-style: normal;
+    font-size: 13px;
+    font-weight: normal;
+    color: var(--p_text);
+}
+
+footer a {
+    font-family: var(--Rubik_font);
+    font-style: normal;
+    font-size: 13px;
+    font-weight: normal;
+    color: var(--footer_text_p);
+
+}
+
+/* ----------------MEDIA-------------------MEDIA--------------------MEDIA---------- */
+/* ----------------MEDIA-------------------MEDIA--------------------MEDIA---------- */
+
+
+
+
+/* ----------------------------KATEGORY BLOCK START----------------------------------------- */
+/* ----------------------------KATEGORY BLOCK START----------------------------------------- */
+
+.section_kategory_block {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    padding: 100px 0;
+}
+
+.section_kategory_block ul {
+    width: 100%;
+}
+
+.active {
+    background: white;
+    padding: 10px 20px;
+}
+
+.section_kategory_block .one_li li {
+    margin: 20px 0 !important;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list_kate {
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+    background: blueviolet;
+}
+
+.tabkonten {
+    overflow: scroll;
+    height: 500px;
+    width: 100%;
+    padding: 20px 0px 20px 20px;
+
+}
+
+.llll {
+    background: white;
+    padding: 20px 20px;
+    border-radius: 12px;
+}
+
+
+
+@media(max-width:1300px) {
+    .section_three {
+        background: none;
+    }
+}
+
+
+
+/* M---------------MEDIA 1200PX--------------- */
+
+@media (max-width:1200px) {
+    .about_page .image_busines .img_2 {
+        transform: translateX(110px) translateY(149px) !important;
+        width: 360px !important;
+        height: 260px !important;
+    }
+
+    .about_page .image_busines img {
+        position: absolute;
+        width: 321px !important;
+        height: 218px;
+        border-radius: 20px;
+    }
+
+    .main-page .opacitybac .main_text {
+        font-size: 35px;
+        margin-top: 160px
+    }
+
+    .main-page {
+        height: 80vh;
+    }
+
+    .main-page .opacitybac header {
+        padding: 0 100px;
+    }
+
+    .section_three .numb1 {
+        /* background: url(../image/Path\ 5688.png) no-repeat; */
+        background-position: 50% 10%;
+        background-size: 80px;
+        transform: translateY(172px);
+    }
+
+    /* numb 2 */
+    .section_three .numb2 {
+        background: url(../image/path1.png) no-repeat;
+        transform: translateY(57px) translateX(-139px);
+        background-position: 50% 10%;
+        background-size: 50px;
+    }
+    /* numb 3 */
+
+    .section_three .numb3 {
+        /* background: url(../image/Path2.png) no-repeat; */
+        transform: translateY(-34px) translateX(-149px);
+        background-position: 50% 10%;
+        background-size: 80px;
+    }
+    .section_three h2 {
+        
+        margin-top: 100px;
+        margin-bottom: 20px !important;
+        text-align: start;
+    }
+    .section_three {
+        padding: 0 20px;
+    }
+}
+
+
+/* ------------------MEDIA 992PX ----------------- */
+
+@media (max-width:992px) {
+    .main-page .opacitybac header nav .one_ul {
+        display: none !important;
+
+    }
+
+    .main-page .opacitybac header nav .ul_two {
+        display: block !important;
+    }
+
+    .ul_two .dropdown_menu a {
+        font-size: 13px !important;
+        color: black !important;
+    }
+
+    .a_end {
+        background: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 12px !important;
+    }
+
+    .main-page {
+        height: 66vh !important;
+    }
+
+    .main-page .opacitybac .main_text {
+        font-size: 30px;
+        margin-top: 140px
+    }
+
+    .main-page .opacitybac header {
+        padding: 0 88px;
+    }
+
+    /* about page */
+    .about_page {
+        margin: 60px 0;
+
+    }
+
+    /* about page */
+    /* .about_page_two */
+
+    .about_page_two .about_image img {
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    /* .about_page_two */
+
+    .section_three .numb {
+        transform: none !important;
+    }
+
+    .section_three {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .about_page .image_busines {
+        display: none !important;
+    }
+
+    .about_page .image_busines_2 {
+        display: block !important;
+    }
+
+    .about_page .image_busines_2 img {
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+        border-radius: 20px;
+        image-orientation: flip;
+    }
+
+    .section_three .btn_ostavit {
+        display: none;
+    }
+
+    .section_three .btn_ostavit2 {
+        display: block;
+    }
+
+    .section_three .rabot_page_two {
+        display: block !important;
+    }
+
+    .section_three .rabot_page_one {
+        display: none !important;
+    }
+
+    .section_three .numb11 {
+        display: none !important;
+    }
+
+}
+
+
+
+/* ----------MEDIA 768PX----------- */
+
+@media(max-width:768px) {
+    .main-page .opacitybac .main_text {
+        font-size: 24px;
+        margin-top: 140px;
+    }
+
+    #logo {
+        width: 80px;
+        height: 60px;
+    }
+
+    #logo1 {
+        width: 80px;
+        height: 60px;
+    }
+
+    .ul_two .aaaa {
+        font-size: 12px !important;
+    }
+
+    .ul_two .dropdown_menu a {
+        font-size: 13px !important;
+        color: black !important;
+    }
+
+    .sticy .a_end {
+
+
+        padding: 5px 5px !important;
+        border-radius: 5px;
+        font-size: 12px !important;
+
+    }
+
+    .a_end {
+        background: #fff;
+        padding: 2px 5px;
+        border-radius: 5px;
+        font-size: 12px !important;
+    }
+
+    .main_page .ul_two li a {
+        font-size: 10px !important;
+
+    }
+
+    .main-page .opacitybac header {
+
+        padding: 10px 70px !important;
+    }
+
+    .section_three .numb {
+        transform: none;
+    }
+
+    .section_three {
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    .section_three .btn_ostavit2 {
+        display: block;
+
+        color: #ffffff;
+        background: var(--blueviolet_1);
+        border-radius: 12px;
+        outline: none;
+        border: none;
+        padding: 5px 40px;
+        font-weight: 500px;
+    }
+
+    .partner_page a {
+        padding: 5px 40px;
+        font-weight: 500px;
+    }
+
+
+    .message_page a {
+        color: var(--blue_1);
+        font-weight: 600;
+        font-family: var(--Rubik_font);
+        text-decoration: none;
+
+    }
+
+    .message_page input {
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        padding: 2px 0;
+    }
+
+    .message_page .message_input {
+        padding: 20px 0;
+    }
+
+    .message_page span {
+        font-size: 11px;
+    }
+
+    .message_page button {
+        width: 100%;
+    }
+
+}
+
+/* ------------MEDIA SM-576---------- */
+
+@media(max-width:576px) {
+
+    /* ------------------- */
+    .main-page .opacitybac header nav #logo {
+        width: 90px !important;
+        height: 60px !important;
+    }
+
+    .main-page .opacitybac header {
+
+        padding: 10px 10px !important;
+    }
+
+    .main-page .opacitybac .main_text {
+        margin-top: 134px;
+        font-size: 22px;
+    }
+
+    .main-page {
+        height: 50vh;
+    }
+
+    .message_page {
+        align-items: center;
+    }
+
+
+
+    .about_page .image_busines_2 img {
+        width: 100%;
+        height: 240px;
+
+    }
+
+    .about_page_two .about_image img {
+        width: 100%;
+        height: 240px;
+
+    }
+
+    .partner_blok .partner_image {
+        margin: 10px 0 10px 0 !important;
+    }
+
+    .partner_blok .partner_image .col-12 {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .section_one h2 {
+       
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+}
+
+/* -----------------------------------MEDIA------------------------------ */
+/* -----------------------------------MEDIA------------------------------ */
+
+
+
+@media only screen and (max-width: 992px){
+    .slick-prev{
+        transform: translateX(200px);
+    }
+}

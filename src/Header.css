@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(270deg, blue , blueviolet, blue);
+    backdrop-filter: blur(100px);
+    background-blend-mode: color-dodge ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Input_block{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(9, 9, 83, 0.411);
+    backdrop-filter: blur(50px);
+    padding: 30px 0 40px 0;
+    border-radius: 5px;
+}
+.Input_block .Text_h1{
+    width: 100%;
+    margin: auto;
+    padding: 0 200px;
+    text-align: center;
+}
+.Input_block .Text_h1 h1{
+   font-size: 40px;
+   font-weight: 600px;
+   font-style: normal;
+   color: #fff;
+}
+.Input_block .Text_h1 p{
+    font-size: 18px;
+    font-weight: 500px;
+    font-style: normal;
+    color: #fff;
+ }
+.Input_block .inputs{
+    width: 30%;
+    text-align: center;
+}
+.Input_block .inputs input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+.Input_block .Button_B{
+  width: 100%;
+  text-align: center;
+}
+.Input_block .Button_B button{
+    border: 1px solid transparent;
+    outline: none;
+    padding: 10px 50px;
+    background: #fff;
+    margin-top: 40px;
+    border-radius: 5px;
+    transition: 0.30s ease;
+}
+.Input_block .Button_B button:hover{
+    border: 1px solid #fff;
+    background: transparent;
+
+}
+.Inputs_B .resul{
+    width: 25%;
+}
+.Inputs_B {
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}

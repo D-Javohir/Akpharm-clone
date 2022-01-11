@@ -1,0 +1,322 @@
+body{
+    margin: 0 !important;
+}
+
+.flues {
+    overflow: hidden;
+}
+
+.Link_kategor {
+    font-size: 16px;
+    font-weight: 500px;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: var(--blueviolet_1);
+    border: 2px solid #6001d6;
+    text-decoration: none !important;
+    list-style: none !important;
+
+}
+div[title='viris-math'] button span{
+    background: url('https://www.qtlms.uz/images/jodit-text/formula.png') no-repeat !important;
+    width: 100%;
+    height: 100%;
+    background-position: center center !important;
+
+}
+div[title='viris-chem'] button span {
+    background-image: url('https://www.qtlms.uz/images/jodit-text/chem.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+div[title='viris-chem'] button span svg {
+    display: none !important;
+
+}
+
+div[title='viris-math'] button span svg {
+   display: none !important;
+}
+.pad_0 {
+    padding: 0;
+    margin: 0;
+
+}
+
+.Link_kategor:hover {
+
+    color: #6001d6;
+
+    background: transparent;
+
+}
+
+/* can you sneak up there and do it for me
+i see you ower there you see the sunset you picking up this vibe
+*/
+
+
+/* KATEGOR ITEM PAGE PROPS CSSS  */
+
+.pad_k {
+    padding-top: 60px;
+}
+
+.pad_k ul {
+    transform: translateX(15px);
+    text-align: start;
+}
+
+.pad_k ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 24px 0 24px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    border-radius: 8px 0px 0px 8px;
+    color: #011a61 !important;
+    cursor: pointer;
+    /* background: #fff; */
+    margin-bottom: 10px;
+}
+
+::selection {
+    background: #fff;
+}
+
+.crad_img {
+    background: var(--white);
+    box-shadow: rgb(200 200 200 / 5%) 16px 24px 24px;
+    border-radius: 12px;
+    width: 100%;
+    height: 226px;
+    border: 2px solid rgba(1, 27, 97, 0.171);
+    margin: 8px;
+    overflow: hidden;
+}
+
+.crad_img .card_img {
+    width: 100%;
+    text-align: center;
+    background: #f3f4f6;
+
+}
+
+.crad_img .card_img img {
+    width: 127px;
+    height: 140px;
+    object-fit: fill;
+}
+
+.over_row {
+    height: 80vh;
+    overflow: scroll;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.crad_img .text_name {
+    padding: 16px;
+}
+
+.crad_img .text_name h4 {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--brown);
+    margin: 0px 0px 12px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.crad_img .text_name h3 {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0px;
+    width: 100%;
+    color: var(--dark-blue);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+/* MEDIA RESPONSIVE */
+
+@media only screen and (max-width:992px) {
+    .pad_k ul li {
+
+        font-size: 14px !important;
+
+    }
+
+    .pad_k ul {
+        margin-left: -60px;
+        text-align: start;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .pad_k ul li {
+
+        font-size: 14px !important;
+        border-radius: 8px !important;
+    }
+
+    .pad_k ul {
+        margin-left: -20px;
+        text-align: start;
+        padding-right: 48px;
+    }
+}
+
+
+.slide img {
+    width: 20rem;
+    height: 50vh;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+.slide {
+    text-align: center;
+    transform: scale(0.7);
+    transition: 0.30s linear;
+    margin: 20px 0;
+
+}
+
+.slideActive {
+    transform: scale(1.1) !important;
+    z-index: 1000;
+    transition: 0.30s linear;
+}
+
+
+.prev {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}
+
+.links_but {
+    color: #ffffff;
+    background: var(--blueviolet_1);
+    border-radius: 12px;
+    outline: none;
+    border: 2px solid var(--blueviolet_1);
+    padding: 10px 10px;
+    font-weight: 500px;
+    text-decoration: none !important;
+    list-style: none !important;
+
+}
+
+.links_but:hover {
+    color: var(--blueviolet_1);
+    background: transparent;
+
+}
+
+.linksss {
+
+    height: 60px;
+    border-radius: 16px;
+    background: #fff;
+    color: black;
+    padding: 0px 25px;
+
+
+
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+    .slide img {
+        width: 17rem;
+        height: 50vh;
+        margin: 0 auto;
+        border-radius: 10px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 776px) {
+
+    .slide img {
+        width: 30rem;
+        height: 50vh;
+        margin: 0 auto;
+        border-radius: 10px;
+
+    }
+
+
+    .slide {
+        text-align: center;
+        transform: scale(0.3);
+        transition: 0.70s linear;
+        margin: 20px 0;
+
+    }
+
+    .slideActive {
+        transform: scale(1.1) !important;
+        z-index: 1000;
+        transition: 0.70s linear;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .slide img {
+        width: 22rem;
+        height: 45vh;
+        margin: 0 auto;
+        border-radius: 10px;
+
+    }
+
+    /* 
+    .slide {
+        text-align: center;
+        transform: scale(0.3);
+        transition: 0.70s linear;
+        margin: 20px 0;
+
+    } */
+    .slideActive {
+        transform: scale(1.1) !important;
+        z-index: 1000;
+        transition: 0.70s linear;
+    }
+
+    .slick-prev {
+        left: 20px !important;
+        background: rgba(0, 0, 0, 0.699) !important;
+    }
+
+    .slick-next {
+        right: 20px !important;
+        background: rgba(0, 0, 0, 0.705) !important;
+    }
+
+    body {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+}

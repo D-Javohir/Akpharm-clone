@@ -1,0 +1,32 @@
+.carous_item {
+    width: 100%;
+    text-align: center;
+   margin-bottom: 20px;
+}
+
+.carous_item img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.carous_item h4 {
+    color: black;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -40px;
+}
+h2{
+    font-family: var(--Rubik_font);
+    color: var(--blue_1);
+    font-weight: 600;
+    font-size: 35px;
+    font-style: normal;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
