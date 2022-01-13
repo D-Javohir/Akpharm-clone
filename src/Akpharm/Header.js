@@ -29,19 +29,20 @@ const Header = () => {
 
 
                         <div className="ul_two">
-                            <ul className="d-flex ">
-                                <li><a className="aaaa" onclick="dropdowns()">О компании <img
-                                    src="image/Stroke 1.png" alt="" /></a>
-                                    <div id="drop" className="flex-column dropdown_menu">
-                                        <a onclick="dropdowns()" href="#categor">Категории товаров</a><br />
-                                        <a onclick="dropdowns()" href="#partner_scrol">Партнеры</a><br />
-                                        <a onclick="dropdowns()" href="#message_scrol">Контакты</a>
+                           
+                            <div className="dropdown">
+                                <button className="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Menu
+                                </button>
 
-                                    </div>
-                                </li>
-                                <li><a href="#message_scrol" className="a_end aends">Оставить заявку</a></li>
+                                <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a className="dropdown-item" href="#o_kompani">О компании </a>
+                                    <a className="dropdown-item" href="#categor">Категории товаров</a>
+                                    <a className="dropdown-item" href="#partner_scrol">Партнеры</a>
+                                    <a className="dropdown-item" href="#message_scrol">Контакты</a>
 
-                            </ul>
+                                </div>
+                            </div>
                         </div>
 
 

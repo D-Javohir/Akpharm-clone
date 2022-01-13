@@ -4,15 +4,28 @@ import Popular from "./Popular";
 import Kategory_tovar_page from "./Kategory_tovar_page";
 import Message from "./Message";
 import Footer from "./Footer";
+import { useEffect } from "react";
 const Kategory_tovar = () => {
+
+    useEffect(() => {
+        updown()
+    }, [])
+    const updown = () => {
+        window.scrollTo({
+            top: 580,
+            left: 0,
+            behavior: 'smooth'
+          });
+    }
+
     return (
         <>
             <main id="main_page_scrol" className="main-page">
                 <div className="opacitybac">
 
-                    <div className="container-fluid">
-                        <div className="row">
-                            <Header />
+                    <div className="container-fluid ">
+                        <div className="row pr-4 owers">
+                            <Header />  
                         </div>
 
                         <div className="row justify-content-center">
@@ -27,7 +40,7 @@ const Kategory_tovar = () => {
 
             </main>
 
-            <Kategory_tovar_page />
+            <Kategory_tovar_page  />
             <div className="row">
 
                 <Popular />

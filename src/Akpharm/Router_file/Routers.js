@@ -12,16 +12,12 @@ const Routers=()=>{
 
          <Route path={"/"} element={<Akpharm_site/>}/>
          <Route path={"/Kategory"} element={<Kategory_tovar/>}/>
-    
-
          
          {/* <Route path={"/post"} element={<ComPost/>}/> */}
          {/* <Route path={"/table"} element={< Tables/>}/> */}
          {/* <Route path={"/packeges"} element={< Timer/>}/> */}
          {/* <Route path={"/savol"} element={< Savol/>}/>\
          <Route path={"/quest"} element={<Questns/>}/> */}
-
-         
 
      </Routes>
     );

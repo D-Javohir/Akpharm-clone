@@ -239,6 +239,11 @@ i see you ower there you see the sunset you picking up this vibe
 }
 
 
+@media (max-width:1140px){
+    .main-page .opacitybac header nav .one_ul {
+        width: 85%;
+    }
+}
 
 @media only screen and (max-width: 992px) {
 

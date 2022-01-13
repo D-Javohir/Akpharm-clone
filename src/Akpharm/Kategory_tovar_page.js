@@ -45,7 +45,7 @@ const Kategory_tovar_page = () => {
 
           
            
-            <div className="container pad_k">
+            <div id="categor"  className="container pad_k">
                 <div className="row ">
                     <div className="col-lg-3 col-md-3 col-sm-4 pad_0">
                         <ul>

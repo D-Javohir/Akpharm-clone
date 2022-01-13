@@ -16,7 +16,7 @@ html {
 
 ::-webkit-scrollbar {
     width: 6px;
-    height: 20px ;
+    height: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -567,7 +567,7 @@ html {
 /*--------------------------------- PARTNER PAGE START ---------------------------------------*/
 
 .partner_page {
-    
+
     background: #ffffff;
     padding: 50px 0px;
 }
@@ -813,7 +813,7 @@ footer a {
 
     .main-page .opacitybac .main_text {
         font-size: 35px;
-        margin-top: 160px
+        margin-top: 263px;
     }
 
     .main-page {
@@ -838,6 +838,7 @@ footer a {
         background-position: 50% 10%;
         background-size: 50px;
     }
+
     /* numb 3 */
 
     .section_three .numb3 {
@@ -846,12 +847,14 @@ footer a {
         background-position: 50% 10%;
         background-size: 80px;
     }
+
     .section_three h2 {
-        
+
         margin-top: 100px;
         margin-bottom: 20px !important;
         text-align: start;
     }
+
     .section_three {
         padding: 0 20px;
     }
@@ -868,6 +871,15 @@ footer a {
 
     .main-page .opacitybac header nav .ul_two {
         display: block !important;
+    }
+
+    .main-page .opacitybac header nav ul li .a_end {
+        color: #000000;
+        font-size: 18px !important;
+        font-family: var(--Rubik_font);
+        font-weight: 500;
+        border-radius: 6px;
+        margin-left: 10px;
     }
 
     .ul_two .dropdown_menu a {
@@ -888,7 +900,7 @@ footer a {
 
     .main-page .opacitybac .main_text {
         font-size: 30px;
-        margin-top: 140px
+        margin-top: 223px;
     }
 
     .main-page .opacitybac header {
@@ -967,7 +979,7 @@ footer a {
 @media(max-width:768px) {
     .main-page .opacitybac .main_text {
         font-size: 24px;
-        margin-top: 140px;
+        margin-top: 216px;
     }
 
     #logo {
@@ -1006,7 +1018,7 @@ footer a {
     }
 
     .main_page .ul_two li a {
-        font-size: 10px !important;
+        font-size: 18px !important;
 
     }
 
@@ -1085,13 +1097,23 @@ footer a {
         height: 60px !important;
     }
 
+    .main-page .opacitybac header nav ul li .a_end {
+        color: #000000;
+        font-size: 15px !important;
+        font-family: var(--Rubik_font);
+        padding: 6px 6px;
+        font-weight: 500;
+        border-radius: 6px;
+        margin-left: 10px;
+    }
+
     .main-page .opacitybac header {
 
         padding: 10px 10px !important;
     }
 
     .main-page .opacitybac .main_text {
-        margin-top: 134px;
+        margin-top: 190px;
         font-size: 22px;
     }
 
@@ -1127,9 +1149,14 @@ footer a {
     }
 
     .section_one h2 {
-       
+
         margin-top: 100px;
         margin-bottom: 0px;
+    }
+
+    .main-page .opacitybac .owers .sal {
+        width: 100% !important;
+        padding: 10px 30px !important;
     }
 }
 
@@ -1138,8 +1165,8 @@ footer a {
 
 
 
-@media only screen and (max-width: 992px){
-    .slick-prev{
+@media only screen and (max-width: 992px) {
+    .slick-prev {
         transform: translateX(200px);
     }
 }
