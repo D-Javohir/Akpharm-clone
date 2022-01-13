@@ -10,20 +10,19 @@ import Popular from "./Popular";
 import Section_one from "./Section_one";
 import Section_three from "./Section_three";
 
-const Akpharm_site=()=>{
-    return(
-     <>
-     
-     <Main/>
-     <About/>
-     <Section_one/>
-     <Section_three/>
-      <Carous_P/>
-     <Popular/>
-     <Partner/>
-     <Message/>
-     <Footer/>
-     </>
+const Akpharm_site = () => {
+    return (
+        <>
+            <Main />
+            <About />
+            <Section_one />
+            <Section_three />
+            <Carous_P />
+            <Popular />
+            <Partner />
+            <Message />
+            <Footer />
+        </>
     );
 }
 export default Akpharm_site;
