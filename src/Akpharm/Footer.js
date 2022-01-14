@@ -9,13 +9,13 @@ const Footer=()=>{
                         <h5>998 71 <b>208 67 84</b> </h5>
                     </div>
                 </div>
-                <div className="col-lg-2 col-md-4 col-sm-4 col-12 ">
+                <div className="col-lg-2 col-md-4 col-sm-4 col-6 ">
                     <h6>О Компании</h6>
                     <p>О нас</p>
                     <p>Почему мы?</p>
                     <p>Наши преимущества</p>
                 </div>
-                <div className="col-lg-2 col-md-4 col-sm-4 col-12">
+                <div className="col-lg-2 col-md-4 col-sm-4 col-6">
                     <h6>Доп информация</h6>
                     <p>Как начать работать?</p>
                     <p>Отзывы клиентов</p>
