@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Kategor_item from "./Kategor_item";
-import './Kategor.css'
-import './Partner.css'
+import '../style/Kategor.css'
+import '../style/Partner.css'
 const Kategory_tovar_page = () => {
 
     const [kate_tovar, setKate_tovar] = useState([])

@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react';
-import './Carous_P.css'
+import '../style/Carous_P.css'
 import axios from "axios";
-// import Carous_item from './Carous_item';
 import { Link } from 'react-router-dom';
-import './Kategor.css'
+import '../style/Kategor.css'
 
 import Slider from "react-slick";
 

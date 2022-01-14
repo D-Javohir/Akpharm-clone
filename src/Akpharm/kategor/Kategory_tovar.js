@@ -1,9 +1,9 @@
 
-import Header from "./Header";
-import Popular from "./Popular";
-import Kategory_tovar_page from "./Kategory_tovar_page";
-import Message from "./Message";
-import Footer from "./Footer";
+import Header from "../main/Header";
+import Popular from "../popular/Popular";
+import Kategory_tovar_page from "../kategor/Kategory_tovar_page";
+import Message from "../message/Message";
+import Footer from "../footer/Footer";
 import { useEffect } from "react";
 const Kategory_tovar = () => {
 

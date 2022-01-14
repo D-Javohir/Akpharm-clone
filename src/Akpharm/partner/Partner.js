@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios"
-import './Partner.css'
+import '../style/Partner.css'
 import Partner_item from "./Partner_item";
+
 const Partner = () => {
 
     const [myPartner, setMyPartner] = useState([])

@@ -1,5 +1,5 @@
 
-import './Partner.css'
+import '../style/Partner.css'
 const Partner_item = (props) => {
     return (
 

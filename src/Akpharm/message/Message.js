@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './Partner.css'
-
+import '../style/Partner.css'
+import ReactPhoneInput from 'react-phone-input-2'
 const Message = () => {
 
     const [name, setName] = useState('');
@@ -60,7 +60,7 @@ const Message = () => {
 
   
     }
-
+   const [h, setH]=useState()
     return (
 
         
@@ -82,7 +82,34 @@ const Message = () => {
                     <input type="text" onChange={(e) => { setName(e.target.value); setErrorName(false) }} /><br />
                     {errorname ? <div style={{ color: "red", fontSize: "12px" }}>Ismingizni kiritmadingiz</div> : ''}
                     <span>Номер телефона</span><br />
-                    <input type="number" onChange={(e) => { setPhone(e.target.value); setErrorPhone(false) }} /><br />
+                    
+                    <ReactPhoneInput
+                        value={phone}
+                        onChange={phone => {
+                            if (phone.length > 3) {
+                                setPhone(phone);
+                            } else {
+                                if (h == 1) {
+                                    setPhone('+998');
+                                    setH(2);
+                                } else {
+                                    setPhone('998');
+                                    setH(1);
+                                }
+                            }
+
+                        }}
+                        inputExtraProps={{
+                            required: true,
+                            autoFocus: true
+                        }}
+                        country={"uz"}
+                        onlyCountries={["uz"]}
+                        masks={{ uz: ' (..) ...-..-..' }}
+                        placeholder={'+998 (__) ___-__-__'}
+                        autocomplete="off"
+                        name="phone"
+                    />
                     {errorPhone ? <div style={{ color: "red", fontSize: "12px" }}>Nomerni To'liq yozing</div> : ''}
                     <span>Что вас интересует</span><br />
                     <input type="text" className="message_input" onChange={(e) => { setComment(e.target.value); setErrorComment(false) }} /><br />

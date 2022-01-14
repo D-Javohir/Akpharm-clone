@@ -1,9 +1,9 @@
 import MomentComp from "./Moment";
-import PhoneInput from "./PhoneInput";
+import PhoneInput from "../Akpharm/PhoneInput";
 import React, { useState } from 'react';
 import { useStopwatch } from 'react-timer-hook';
 import Colorvalues from "./color/Colorvalues";
-import TimeDown from "./TimeDown";
+import TimeDown from "../Akpharm/TimeDown";
 import TinyEditorComponent from "./Mathresul/WordClone"
 
 import WordSave from "./Mathresul/WordSave";
